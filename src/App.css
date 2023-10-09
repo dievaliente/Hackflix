@@ -1,0 +1,27 @@
+.movies {
+  height: 450px;
+  width: auto;
+}
+
+.modalMovies {
+  height: auto;
+  width: 250px;
+}
+
+.modalMovies.expanded {
+  height: 200px;
+  width: 150px;
+}
+
+.rating-filter {
+  margin: 10px;
+}
+
+.rating-filter h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.stars .active {
+  color: #fddb3a;
+}
