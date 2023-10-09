@@ -8,7 +8,7 @@ function Navbar() {
       <nav>
         <div className="d-flex">
           <p className="flex-grow-1 fw-bold"> Hackflix </p>
-          <a href="/">Home</a>
+          <a href="/">Homeflix</a>
         </div>
       </nav>
     </>
