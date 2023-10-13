@@ -10,7 +10,7 @@ function RatingFilter({ selectedStars, onStarClick }) {
 
   return (
     <div className="rating-filter d-flex justify-content-center">
-      <h2 className="pt-1">Filter by Rating</h2>
+      <h2 className="pt-1 text-light">Filter by Rating</h2>
       <Rating
         className="ps-2"
         initialRating={selectedStars}

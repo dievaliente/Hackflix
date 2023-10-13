@@ -4,6 +4,7 @@ import RatingFilter from "./RatingFilter";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import InfiniteScroll from "react-infinite-scroll-component";
+import "./Movielist.css";
 
 function MovieList() {
   const [movies, setMovies] = useState([]);
@@ -93,7 +94,7 @@ function MovieList() {
           <div className="row d-flex justify-content-center text-center">
             {movies.map((movie) => (
               <div
-                className="col-3"
+                className="col-3 movie-container"
                 key={movie.id}
                 onClick={() => handleShowModal(movie)}
               >
@@ -102,7 +103,7 @@ function MovieList() {
                   src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                   alt={movie.title}
                 />
-                <p className="movie-rating fw-bold">
+                <p className="movie-rating fw-bold text-light">
                   Rating: {movie.vote_average}
                 </p>
               </div>

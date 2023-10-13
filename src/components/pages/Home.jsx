@@ -5,7 +5,7 @@ import MovieList from "../MovieList";
 function Home() {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid bg-dark">
         <Navbar />
         <Header />
         <div className="row">

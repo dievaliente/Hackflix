@@ -1,0 +1,10 @@
+.movie-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.movie-container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
