@@ -24,9 +24,9 @@ function Header() {
         alt=""
       />
 
-      <div style={textStyle}>
+      {/* <div style={textStyle}>
         <h1>HACKFLIX</h1>
-      </div>
+      </div> */}
     </div>
   );
 }
