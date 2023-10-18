@@ -7,8 +7,8 @@ function Navbar() {
     <>
       <nav>
         <div className="d-flex">
-          <p className="flex-grow-1 fw-bold"> Hackflix</p>
-          <a href="/">Home</a>
+          <p className="flex-grow-1 fw-bold text-white"> Hackflix</p>
+          <link rel="stylesheet" href="/" />
         </div>
       </nav>
     </>
