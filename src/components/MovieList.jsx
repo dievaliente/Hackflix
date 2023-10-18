@@ -94,7 +94,7 @@ function MovieList() {
           <div className="row d-flex justify-content-center text-center">
             {movies.map((movie) => (
               <div
-                className="col-3 movie-container"
+                className="col-3 py-3 movie-container"
                 key={movie.id}
                 onClick={() => handleShowModal(movie)}
               >
